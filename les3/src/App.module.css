@@ -1,0 +1,7 @@
+.div {
+    display: flex;
+}
+.box {
+    padding-left: 80px;
+    padding-top: 20px;
+}
