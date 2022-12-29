@@ -1,0 +1,20 @@
+.div {
+    display: flex;
+}
+.box {
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.check{
+    margin-left: 80px;
+    padding: 10px;
+}
+.check1{
+    margin-left: 20px;
+    background-color: rgb(163, 102, 163);
+    color: rgb(237, 225, 236);
+    padding: 10px;
+    border: 0;
+    border-radius: 4px
+}
+
