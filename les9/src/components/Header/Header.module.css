@@ -1,0 +1,13 @@
+.header {
+  background-color: rgb(167, 110, 172);
+ 
+}
+.header ul {
+  
+  display: flex;
+  margin-left: 70px;
+  width: 25%;
+  
+ 
+}
+ 
