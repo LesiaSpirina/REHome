@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Button render with snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="button"
+    style="background-color: rgb(163, 102, 163);"
+  >
+    Change Theme
+  </button>
+</DocumentFragment>
+`;

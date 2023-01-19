@@ -1,15 +1,15 @@
 import { useParams, Navigate } from 'react-router-dom'
-import { useSelector } from 'react-redux'
+
 import { MessageList } from '../../components/MessageList/MessageList'
 import { Form } from '../../components/Form/Form'
 import { ChatList } from '../../components/ChatList/ChatListContainer';
 import { WithClasses } from '../../HOC/WithClasses'
 import styles from './ChatsPage.module.css'
-import { selectorMessage} from '../../store/messages/selectors'
+
 
 
 export function ChatsPage({messagesDB, chats}) {
-   
+  
     const {chatId} = useParams()
 
     // const messages = useSelector(selectorMessage)
@@ -26,9 +26,6 @@ export function ChatsPage({messagesDB, chats}) {
 
     console.log('messages', messagesChat)
 
-    // if(chatId && !messages[chatId]) {
-    //   return <Navigate to="/chats/:chatId" replace />
-    // }
   
     return (
         <>

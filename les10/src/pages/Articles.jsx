@@ -33,8 +33,6 @@ export function Articles () {
     }
     useEffect(() => {
 
-        // getFetchArticles()
-        // console.log(articles)
     }, [])
 
     return (

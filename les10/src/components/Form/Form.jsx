@@ -9,7 +9,7 @@ import {  addMessageWithReply  } from '../../store/messages/actions';
 import { getMessageListById } from '../../services/firebase';
 import styles from './Form.module.css'
 
-// import IButton from '@mui/material/Button';
+
 import ITextField from '@mui/material/TextField';
 import {Button} from '../Button/Button'
 
@@ -37,15 +37,6 @@ export function Form () {
 
     }
 
-    // const Input = (props) => {
-    //     const inputRef = useRef(null);
-    //     useEffect(() => {
-    //         inputRef.current?.focus();
-    //         }, []);
-    //     return (
-    //     <ITextField inputRef={inputRef} />
-    //     )
-    //     }
        
     return (
         <>
@@ -65,13 +56,7 @@ export function Form () {
             
             <br/>
             <br/>
-            {/* <IButton 
-            // onClick={props.click}
-            variant="contained"
-            type="submit" 
-            color="secondary"
-            size="medium"
-            >Add new message</IButton> */}
+           
              <Button type="submit" >Add message</Button>
         </form>
         </>

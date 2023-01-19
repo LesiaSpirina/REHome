@@ -8,8 +8,8 @@ import IList from '@mui/material/List';
 import IListItem from '@mui/material/ListItem';
 import styles from './ChatList.module.css'
 
-import { addChat, deleteChats } from '../../store/messages/actions'
-import { selectorChat } from "../../store/messages/selectors";
+import { addChat } from '../../store/messages/actions'
+
 
 import {Button} from "../Button/Button";
 import { messagesRef, getChatById, getMessageListById } from '../../services/firebase'

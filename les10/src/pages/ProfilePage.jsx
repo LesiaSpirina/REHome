@@ -9,6 +9,7 @@ import { toggleProfile, changeName } from '../store/profile/actions'
 
 
 export function ProfilePage(){
+   
 
     const {theme, toggleTheme } = useContext(ThemeContext)
     const name = useSelector(selectorName)
@@ -18,15 +19,9 @@ export function ProfilePage(){
 
     const dispatch = useDispatch()
    
-//     const handleChange = () => {
-//         console.log(value)
-//         // dispatch ({type: types.CHANGE_NAME, payload: value })
-// dispatch(changeName(value))
-
-//         setValue('')
-    // }
 
     return (
+        
         <>
         <div className={styles.box}>
         <h1  >Welcome to PROFILE!</h1>
@@ -49,7 +44,7 @@ export function ProfilePage(){
                className={styles.check}
                value={value}
                onChange={(e) => setValue(e.target.value) } />
-        {/* <Button onClick={(handleChange}>Change Name</Button> */}
+   
         <Button onClick={() => dispatch(changeName(value))}>Change Name</Button>
         </>
     )

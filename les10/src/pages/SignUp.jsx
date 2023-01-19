@@ -2,7 +2,6 @@ import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { auth } from "../store/profile/actions";
 import { signUp } from '../services/firebase';
 import Stack from '@mui/material/Stack';
 import LinearProgress from '@mui/material/LinearProgress';
@@ -31,14 +30,7 @@ export function SignUp() {
         }
     }
 
-        // if(inputs.email === 'blabla' && inputs.password === 'blabla'){
-        //     dispatch(auth(true))
-        //     navigate ('/')
-        // } else {
-        //     setError('login and password are failed')
-        //     setInputs({email: '', password: ''})
-        // }
-    
+ 
     return (
     <>
         <div>SignUp</div>

@@ -1,5 +1,4 @@
 import { ADD_CHAT, DELETE_CHAT, ADD_MESSAGE } from "./actions" 
-import { AUTHOR } from "../../constants"
 
 const initialState = {
     default: [
